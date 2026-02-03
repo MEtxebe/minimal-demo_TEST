@@ -74,6 +74,40 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Participant chips (no bullets) */
+.participants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.participant {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 6px;
+  line-height: 1;
+}
+
+.remove-btn:hover {
+  background-color: #ffecec;
+  border-radius: 4px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
